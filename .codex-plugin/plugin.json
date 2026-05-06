@@ -1,0 +1,38 @@
+{
+  "name": "joai-coupon",
+  "version": "0.3.0",
+  "description": "Connect Coupon to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/coupon",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "coupon"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Coupon by JoAi",
+    "shortDescription": "Connect Coupon to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "On-chain discount coupons for businesses. Create, share, and redeem verifiable coupon codes — fully recorded on the blockchain.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/coupon",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Coupon tools available in this app.",
+      "Explain what setup or authentication Coupon needs before I run an action.",
+      "Use Coupon to help me with the task I describe next."
+    ]
+  }
+}
